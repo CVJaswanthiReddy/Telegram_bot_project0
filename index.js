@@ -42,7 +42,7 @@ else:
     print("Target not found in array.")
 `;
 
-const bot = new Telegraf('6810371635:AAEbYGYe_oiUYP4zKoyZXVHkpVUzXl0wJjs');
+const bot = new Telegraf('');
 
 bot.start((ctx) => ctx.reply('Welcome to the new coding bot from jassu'))
 
